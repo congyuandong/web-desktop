@@ -5,7 +5,7 @@ const config = require('./conf').appConfig;
 const app = koa();
 
 app.use(function *(){
-  this.body = 'Hello Node.js';
+  this.body = 'Hello node.js';
 });
 
 
