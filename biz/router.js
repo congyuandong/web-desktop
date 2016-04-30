@@ -7,6 +7,7 @@ const controller = require('./controller')
 
 module.exports = function(app) {
     router.get('/', controller.index);
+    router.get('/login', controller.login);
 
     app.use(router.routes());
 };
